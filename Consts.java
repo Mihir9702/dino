@@ -1,18 +1,11 @@
 public class Consts {
 
-  private static final String GAME_NAME = "dino";
-  private static final int SCREEN_WIDTH = 1000;
-  private static final int SCREEN_HEIGHT = 1000;
+  final String GAME_NAME = "dino";
+  final int SCREEN_WIDTH = 1000;
+  final int SCREEN_HEIGHT = 1000;
 
-  public static String getGameName() {
-    return GAME_NAME;
-  }
-
-  public static int getScreenWidth() {
-    return SCREEN_WIDTH;
-  }
-
-  public static int getScreenHeight() {
-    return SCREEN_HEIGHT;
-  }
+  final int DINO_WIDTH = 50;
+  final int DINO_HEIGHT = 50;
+  final int DINO_STARTING_X = DINO_WIDTH * 2;
+  final int DINO_STARTING_Y = SCREEN_HEIGHT - (DINO_HEIGHT * 2);
 }
